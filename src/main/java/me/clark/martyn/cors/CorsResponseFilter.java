@@ -15,7 +15,7 @@ public class CorsResponseFilter implements ContainerResponseFilter {
 
     public final static int MAX_AGE = 42 * 60 * 60;
 
-    public final static String DEFAULT_ALLOWED_HEADERS = "origin,accept,content-type";
+    public final static String DEFAULT_ALLOWED_HEADERS = "origin,accept,content-type, authorization";
 
     public final static String DEFAULT_EXPOSED_HEADERS = "location,info";
 
